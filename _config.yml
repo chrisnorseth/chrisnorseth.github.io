@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Christian Norseth / Site Title"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Christian Norseth / Astrophysics PhD Student"
 title_separator          : "-"
 name                     : &name "Christian Norseth"
 description              : &description "Christian Norseth's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,13 +24,13 @@ repository               : "chrisnorseth/chrisnorseth.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Christian Norseth"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Utah, US"
+  employer         : "University of Utah"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "christian.norseth@utah.edu" 
 
   # Academic websites
   academia         : # URL
