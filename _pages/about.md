@@ -1,10 +1,10 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Galaxy Clusters - X-ray Telescopes - Cosmology"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is
+I am a PhD student in Physics at the University of Utah conducting X-ray astronomy research related to telescope calibration, galaxy clusters, and cosmology.
