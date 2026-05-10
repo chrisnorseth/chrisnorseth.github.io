@@ -23,7 +23,7 @@ repository               : "chrisnorseth/chrisnorseth.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "cropped_headshot.jpg"
+  avatar           : "cropped_headshot.png"
   name             : "Christian Norseth"
   pronouns         : # example: "she/her"  
   bio              : "Astrophysics PhD research."
