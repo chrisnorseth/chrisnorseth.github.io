@@ -1,6 +1,8 @@
 
-TO OPEN A PREVIEW RUN
-bundle exec jekyll serve
+TO OPEN A PREVIEW
+- navigate to the Website dir in terminal
+-> run: bundle exec jekyll serve
+- copy and paste link in browser
 
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
