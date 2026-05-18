@@ -8,4 +8,8 @@ date: 2025-09-08
 location: "Cambridge, MA, USA"
 ---
 
-A flash talk.
+A flash talk and poster at the CFA's [Magnetic Fields and Cosmic Rays across Diverse Scales: What’s Next?](https://cosmic-rays-magnetic-fields.sites.cfa.harvard.edu).
+
+[Flash Talk Slide](/files/flashTalkMagneticFields.pdf)
+
+[Poster](/files/magneticFieldsPoster2025.pdf)
