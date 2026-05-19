@@ -32,11 +32,13 @@
       </div>
     {% endif %}
 
-	    <!-- title -->
-	    <h2 class="archive__item-title" itemprop="headline">
-		      {% if post.link %}
-		        <a href="{{ post.link }}">{{ title }}{% if post.year %} <span class="archive__item-year" style="font-weight: normal;">({% if post.end_year %}{{ post.year }}&ndash;{{ post.end_year }}{% else %}{{ post.year }}{% endif %})</span>{% endif %}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-		      {% else %}
+		    <!-- title -->
+		    <h2 class="archive__item-title{% if post.title_link == false %} archive__item-title--plain{% endif %}" itemprop="headline">
+			      {% if post.title_link == false %}
+			        {{ title }}{% if post.year %} <span class="archive__item-year" style="font-weight: normal;">({% if post.end_year %}{{ post.year }}&ndash;{{ post.end_year }}{% else %}{{ post.year }}{% endif %})</span>{% endif %}
+			      {% elsif post.link %}
+			        <a href="{{ post.link }}">{{ title }}{% if post.year %} <span class="archive__item-year" style="font-weight: normal;">({% if post.end_year %}{{ post.year }}&ndash;{{ post.end_year }}{% else %}{{ post.year }}{% endif %})</span>{% endif %}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+			      {% else %}
 		        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}{% if post.year %} <span class="archive__item-year" style="font-weight: normal;">({% if post.end_year %}{{ post.year }}&ndash;{{ post.end_year }}{% else %}{{ post.year }}{% endif %})</span>{% endif %}</a>
 		      {% endif %}
 		    </h2>

@@ -1,0 +1,43 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title archive__item-title--plain" itemprop="headline">
+      {{ title }}
+    </h2>
+
+    {% if post.type or post.venue %}
+      <p class="archive__item-excerpt" itemprop="description">
+        {% if post.type %}{{ post.type }}{% endif %}
+        {% if post.type and post.venue %}, {% endif %}
+        {% if post.venue %}<i>{{ post.venue }}</i>{% endif %}
+      </p>
+    {% endif %}
+
+    {% if post.location %}
+      <p class="archive__item-excerpt" itemprop="location"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ post.location }}</p>
+    {% endif %}
+
+    {% if post.year %}
+      <p class="archive__item-excerpt">
+        {% if post.end_year %}
+          {{ post.year }}&ndash;{{ post.end_year }}
+        {% else %}
+          {{ post.year }}
+        {% endif %}
+      </p>
+    {% elsif post.date %}
+      <p class="archive__item-excerpt">{{ post.date | date: "%Y" }}</p>
+    {% endif %}
+
+    {% if post.content %}
+      <div class="archive__item-excerpt" itemprop="text">{{ post.content | markdownify }}</div>
+    {% endif %}
+  </article>
+</div>

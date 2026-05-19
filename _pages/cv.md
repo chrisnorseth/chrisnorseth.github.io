@@ -9,6 +9,65 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+  .cv-content h1 {
+    margin-top: 1.35em;
+    margin-bottom: 0.35em;
+  }
+
+  .cv-content h1:first-of-type {
+    margin-top: 0;
+  }
+
+  .cv-content h1 + h2 {
+    margin-top: 0.6em;
+  }
+
+  .cv-content .cv-section-extra-space {
+    height: 0.55em;
+  }
+
+  .cv-content .cv-section-bottom-space {
+    height: 0.55em;
+  }
+
+  .cv-content .cv-service-list {
+    margin-top: 0.2em;
+  }
+
+  .cv-content .cv-service-list > li {
+    margin-bottom: 0.45em;
+  }
+
+  .cv-content .cv-service-list .list__item {
+    margin-bottom: 0;
+  }
+
+  .cv-content .cv-service-list .archive__item-title {
+    margin-top: 0;
+    margin-bottom: 0.15em;
+  }
+
+  .cv-content .cv-service-list .archive__item-excerpt {
+    margin-bottom: 0.25em;
+  }
+
+  .cv-content .cv-teaching-list .archive__item-title {
+    margin-top: 0;
+    margin-bottom: 0.15em;
+  }
+
+  .cv-content .cv-teaching-list .archive__item-excerpt {
+    margin-bottom: 0.25em;
+  }
+
+  .cv-content .cv-research-role {
+    font-size: 1.3em;
+  }
+</style>
+
+<div class="cv-content" markdown="1">
+
 Education
 ======
 * Ph.D in Physics, University of Utah, 2028 (expected)
@@ -18,42 +77,43 @@ Education
 
 Research Experience
 ======
-## Graduate Research Assistant
-PI: Dr. Daniel Wik
-*University of Utah*
+* <strong class="cv-research-role">Graduate Research Assistant</strong>  
+  PI: Dr. Daniel Wik  
+  *University of Utah*
 
-* **Abell 754** (2026 - Present)
-  * Exploring shock strength and equilibration models in the galaxy cluster merger A754.
+  * **Abell 754** (2026 - Present)
+    * Exploring shock strength and equilibration models in the galaxy cluster merger A754.
 
-* **PHEMTO Core Member** (2026 - Present)
-  * The Polarimetric High Energy Modular Telescope Observatory - mission concept proposal
-  * Simulated temperature profile across shock front in A665 and impact on equilibration models
+  * **PHEMTO Core Member** (2026 - Present)
+    * The Polarimetric High Energy Modular Telescope Observatory - mission concept proposal
+    * Simulated temperature profile across shock front in A665 and impact on equilibration models
 
-* **X-ray Cross-Calibration** (2025 - Present)
-  * Studying the effect of instrumentation on galaxy cluster temperature measurements
-  * Will study how instrumentation affects cluster mass measurements and resulting cosmological constraints
+  * **X-ray Cross-Calibration** (2025 - Present)
+    * Studying the effect of instrumentation on galaxy cluster temperature measurements
+    * Will study how instrumentation affects cluster mass measurements and resulting cosmological constraints
 
-* **Double Radio Relic Galaxy Cluster ZWCL+1856** (2024 - 2026)
-  * Remote/Visiting Collaboration with MIT Kavli Institute for Astrophysics and Space Research (PI: Dr. Aysegül Tümer) 
-  * Investigated IC and B field strength in galaxy cluster merger
-  * Visited MIT May 2024
-  * *Publishing second author paper*
+  * **Double Radio Relic Galaxy Cluster ZWCL+1856** (2024 - 2026)
+    * Remote/Visiting Collaboration with MIT Kavli Institute for Astrophysics and Space Research (PI: Dr. Aysegül Tümer) 
+    * Investigated IC and B field strength in galaxy cluster merger
+    * Visited MIT May 2024
+    * *Publishing second author paper*
 
-* **Equilibration in Galaxy Cluster Merger A665** (2023-2025)
-  * Conducted detailed temperature analysis across shock front
-  * Derived shock heating models for electron-ion equilibration
-  * *Published first author paper*
+  * **Equilibration in Galaxy Cluster Merger A665** (2023-2025)
+    * Conducted detailed temperature analysis across shock front
+    * Derived shock heating models for electron-ion equilibration
+    * *Published first author paper*
 
-## Post-Bacc/Undergraduate Research Assistant
-PI: Dr. Daniel Wik
-*University of Utah*
+* <strong class="cv-research-role">Post-Bacc/Undergraduate Research Assistant</strong>  
+  PI: Dr. Daniel Wik  
+  *University of Utah*
 
-* **STAR-X Gas Clumping Simulations** (2021-2023)
-  * Assessed sensitivity of STAR-X, a NASA MIDEX probe in phase A study
-  * Simulated gas clumping in galaxy cluster outskirts
-  * Constructed simulations and analysis pipelines
-  * *Published first author paper*
+  * **STAR-X Gas Clumping Simulations** (2021-2023)
+    * Assessed sensitivity of STAR-X, a NASA MIDEX probe in phase A study
+    * Simulated gas clumping in galaxy cluster outskirts
+    * Constructed simulations and analysis pipelines
+    * *Published first author paper*
 
+<div class="cv-section-extra-space"></div>
 
 Successful Observing and Funding Proposals
 ======
@@ -70,6 +130,7 @@ Successful Observing and Funding Proposals
 NASA NuSTAR GO Grant NNX17AH31G (PI: Daniel Wik)
 NASA NuSTAR GO Grant NNH22ZDA001N (PI: Aysegül Tümer)
 
+<div class="cv-section-bottom-space"></div>
 
 Publications
 ======
@@ -87,35 +148,20 @@ Talks
 
 Service and leadership
 ======
-**Webmaster** (2026 - Present)
-Great Salt Lake Audubon
-*Salt Lake City, UT*
-* Update and maintain website
-* Attend board meetings and discuss upcoming events
-
-**AstroCoffee Organizing Committee Member** (2026 - Present)
-University of Utah
-*Salt Lake City, UT*
-* Assist in the organization and facilitation of a journal club
-
-**Science Fair Mentor** (2023 - Present)
-Science With U
-*Salt Lake City, UT*
-* Mentor middle school students with their science fair projects
-
-**Astrophysics Intern** (2022)
-Evans and Sutherland
-*Salt Lake City, UT*
-* Designed and scripted planetarium shows using astronomical datasets in the Digistar Command Language
-
-**Think Tank Contributor** (2018)
-Spark Lab
-*Salt Lake City, UT*
-* Assessed how to improve the accessibility of information at the University of Utah Hospital Burn Unit
+<ul class="cv-service-list">
+{% assign service_items = site.service | sort: "order" %}
+{% for post in service_items %}
+  <li>{% include archive-single-service.html %}</li>
+{% endfor %}
+</ul>
 
 
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul class="cv-teaching-list">
+{% for post in site.teaching reversed %}
+  <li>{% include archive-single-teaching-cv.html %}</li>
+{% endfor %}
+</ul>
+
+</div>
