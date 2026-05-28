@@ -15,7 +15,7 @@ images:
     caption: "Snowy Egret standing."
   - file: IMG_2924.JPG
     alt: "Snowy Egret standing legs bent."
-    caption: "Snowy Egret standing ready to strike.."
+    caption: "Snowy Egret standing, ready to strike."
   - file: IMG_2927.JPG
     alt: "Snowy Egret and loon"
     caption: "Snowy Egret standing with Common Loon."
