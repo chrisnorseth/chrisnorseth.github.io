@@ -16,7 +16,9 @@
       {% endif %}
 
       <figure class="bird-gallery__item">
-        <img src="{{ resolved_src }}" alt="{{ image.alt | default: image.caption | default: bird.title | strip_html | escape }}">
+        <a href="{{ resolved_src }}" target="_blank" rel="noopener">
+          <img src="{{ resolved_src }}" alt="{{ image.alt | default: image.caption | default: bird.title | strip_html | escape }}">
+        </a>
         {% if image.caption %}
           <figcaption>{{ image.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
         {% endif %}

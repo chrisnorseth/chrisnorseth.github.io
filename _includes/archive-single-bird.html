@@ -8,8 +8,8 @@
 
 <div class="{{ include.type | default: "list" }}__item bird-set">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    <h2 class="archive__item-title archive__item-title--plain" itemprop="headline">
+      {{ title }}
     </h2>
 
     {% if post.description %}
