@@ -1,0 +1,26 @@
+{% assign bird = include.bird | default: page %}
+{% assign bird_folder = bird.path | remove_first: "_birds/" | split: "/" | first %}
+{% assign bird_image_base = "/birds/" | append: bird_folder | append: "/" | relative_url %}
+
+{% if bird.images %}
+  <div class="bird-gallery">
+    {% for image in bird.images %}
+      {% assign image_src = image.file %}
+      {% assign first_char = image_src | slice: 0 %}
+      {% if image_src contains "://" %}
+        {% assign resolved_src = image_src %}
+      {% elsif first_char == "/" %}
+        {% assign resolved_src = image_src | relative_url %}
+      {% else %}
+        {% assign resolved_src = bird_image_base | append: image_src %}
+      {% endif %}
+
+      <figure class="bird-gallery__item">
+        <img src="{{ resolved_src }}" alt="{{ image.alt | default: image.caption | default: bird.title | strip_html | escape }}">
+        {% if image.caption %}
+          <figcaption>{{ image.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+{% endif %}

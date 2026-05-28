@@ -19,6 +19,9 @@ main:
 
   - title: "Service"
     url: /service/
+
+  - title: "Birds"
+    url: /birds/
     
   # - title: "Portfolio"
   #   url: /portfolio/

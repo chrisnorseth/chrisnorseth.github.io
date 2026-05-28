@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Birds"
+permalink: /birds/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign bird_sets = site.birds | sort: "order" %}
+{% for post in bird_sets %}
+  {% unless post.published == false %}
+    {% include archive-single-bird.html %}
+  {% endunless %}
+{% endfor %}

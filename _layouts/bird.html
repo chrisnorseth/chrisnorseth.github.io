@@ -1,0 +1,11 @@
+---
+layout: single
+---
+
+{% if page.description %}
+{{ page.description | markdownify }}
+{% endif %}
+
+{{ content }}
+
+{% include bird-gallery.html bird=page %}
