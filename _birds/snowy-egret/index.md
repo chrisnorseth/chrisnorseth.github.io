@@ -2,6 +2,7 @@
 published: True
 title: "Snowy Egret"
 description: "Snowy Egret by the harbor in Oceanside, CA."
+location: "Oceanside, CA"
 order: 1
 images:
   - file: IMG_3075.JPG

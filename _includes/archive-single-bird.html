@@ -5,11 +5,14 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+{% assign bird_folder = post.path | remove_first: "_birds/" | split: "/" | first %}
+{% assign bird_image_base = "/birds/" | append: bird_folder | append: "/" | relative_url %}
+{% assign detail_url = base_path | append: post.url %}
 
 <div class="{{ include.type | default: "list" }}__item bird-set">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <h2 class="archive__item-title archive__item-title--plain" itemprop="headline">
-      {{ title }}
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ detail_url }}" rel="permalink">{{ title }}</a>
     </h2>
 
     {% if post.description %}
@@ -18,6 +21,48 @@
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% endif %}
 
-    {% include bird-gallery.html bird=post %}
+    {% if post.location %}
+      <p class="archive__item-excerpt" itemprop="location"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ post.location }}</p>
+    {% endif %}
+
+    {% if post.images %}
+      {% assign featured_image = post.images | first %}
+      {% assign featured_src = featured_image.file %}
+      {% assign featured_first_char = featured_src | slice: 0 %}
+      {% if featured_src contains "://" %}
+        {% assign resolved_featured_src = featured_src %}
+      {% elsif featured_first_char == "/" %}
+        {% assign resolved_featured_src = featured_src | relative_url %}
+      {% else %}
+        {% assign resolved_featured_src = bird_image_base | append: featured_src %}
+      {% endif %}
+
+      <div class="bird-preview">
+        <a class="bird-preview__featured" href="{{ detail_url }}" rel="permalink">
+          <img src="{{ resolved_featured_src }}" alt="{{ featured_image.alt | default: featured_image.caption | default: post.title | strip_html | escape }}">
+        </a>
+
+        {% if post.images.size > 1 %}
+          <a class="bird-preview__thumbs" href="{{ detail_url }}" rel="permalink" aria-label="View more {{ title }} photos">
+            {% for image in post.images limit: 4 offset: 1 %}
+              {% assign image_src = image.file %}
+              {% assign first_char = image_src | slice: 0 %}
+              {% if image_src contains "://" %}
+                {% assign resolved_src = image_src %}
+              {% elsif first_char == "/" %}
+                {% assign resolved_src = image_src | relative_url %}
+              {% else %}
+                {% assign resolved_src = bird_image_base | append: image_src %}
+              {% endif %}
+              <img src="{{ resolved_src }}" alt="">
+            {% endfor %}
+            {% assign remaining_images = post.images.size | minus: 5 %}
+            {% if remaining_images > 0 %}
+              <span class="bird-preview__more">+{{ remaining_images }}</span>
+            {% endif %}
+          </a>
+        {% endif %}
+      </div>
+    {% endif %}
   </article>
 </div>

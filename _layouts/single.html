@@ -34,7 +34,11 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
-        {% if page.collection == 'service' %}
+        {% if page.collection == 'birds' %}
+          {% if page.location %}
+            <p class="archive__item-excerpt" itemprop="location"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ page.location }}</p>
+          {% endif %}
+        {% elsif page.collection == 'service' %}
           {% if page.company %}
             <p class="archive__item-excerpt" itemprop="organization" style="font-size: 1.05em; margin-bottom: 0.15em;">{{ page.company }}</p>
           {% endif %}
