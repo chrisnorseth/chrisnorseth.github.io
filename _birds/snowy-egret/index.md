@@ -5,6 +5,9 @@ description: "Snowy Egret by the harbor in Oceanside, CA."
 location: "Oceanside, CA"
 order: 1
 images:
+  - file: IMG_2924.JPG
+    alt: "Snowy Egret standing legs bent."
+    caption: "Snowy Egret standing, ready to strike."
   - file: IMG_3075.JPG
     alt: "Snowy Egret"
     caption: "Snowy Egret on the harbor."
@@ -14,9 +17,6 @@ images:
   - file: IMG_2904.JPG
     alt: "Snowy Egret standing"
     caption: "Snowy Egret standing."
-  - file: IMG_2924.JPG
-    alt: "Snowy Egret standing legs bent."
-    caption: "Snowy Egret standing, ready to strike."
   - file: IMG_2927.JPG
     alt: "Snowy Egret and loon"
     caption: "Snowy Egret standing with Common Loon."
