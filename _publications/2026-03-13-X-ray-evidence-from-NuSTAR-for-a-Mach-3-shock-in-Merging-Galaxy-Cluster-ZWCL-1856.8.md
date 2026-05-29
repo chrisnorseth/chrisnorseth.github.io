@@ -9,7 +9,7 @@ excerpt: 'This paper is about the merging cluster ZWCL 1865.8.'
 date: 2026-03-13
 venue: 'The Astrophysical Journal'
 #slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
-paperurl: '/files/tumer_norseth_wik.pdf'
+paperurl: '/files/Tumer_2026_ApJ_1003_243.pdf'
 #bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Tumer, A., Norseth, C., Wik, D. (2026). &quot;X-ray evidence from NuSTAR for a Mach 3 shock in Merging Galaxy Cluster ZWCL 1856.8.&quot; <i>ApJ?</i>. ?(?).'
+citation: 'Tumer, A., Norseth, C., Wik, D. (2026). &quot;X-ray evidence from NuSTAR for a Mach 3 shock in Merging Galaxy Cluster ZWCL 1856.8.&quot; <i>ApJ</i>. 1003(243).'
 ---
