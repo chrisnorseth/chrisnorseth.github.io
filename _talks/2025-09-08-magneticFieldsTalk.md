@@ -9,7 +9,7 @@ location: "Cambridge, MA, USA"
 # link: /files/flashTalkMagneticFields.pdf
 ---
 
-A flash talk and poster at the CFA's [Magnetic Fields and Cosmic Rays across Diverse Scales: What’s Next?](https://cosmic-rays-magnetic-fields.sites.cfa.harvard.edu).
+I presented my paper on electron-ion equilibration in the merging galaxy cluster Abell 665 in the form of a flash talk and poster at the CFA's [Magnetic Fields and Cosmic Rays across Diverse Scales: What’s Next?](https://cosmic-rays-magnetic-fields.sites.cfa.harvard.edu).
 
 [Flash Talk Slide](/files/flashTalkMagneticFields.pdf)
 

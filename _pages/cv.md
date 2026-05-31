@@ -127,7 +127,7 @@ Successful Observing and Funding Proposals
 * **Co-I**, 2024: *XRISM*, “Gas Dynamics in the Line-of-Sight Merger Abell 2163 with XRISM,” 200 ks, $176,173 (PI: Daniel Wik)
 
 **Research Supported by:**
-NASA NuSTAR GO Grant NNX17AH31G (PI: Daniel Wik)
+ NASA NuSTAR GO Grant NNX17AH31G (PI: Daniel Wik),
 NASA NuSTAR GO Grant NNH22ZDA001N (PI: Aysegül Tümer)
 
 <div class="cv-section-bottom-space"></div>

@@ -8,4 +8,6 @@ date: 2024-10-03
 location: "Salt Lake City, UT, USA"
 ---
 
-A flash talk for SWIGART Summer Research program.
+A flash talk as part of the SWIGART Summer Research program.
+
+[Flash Talk](/files/SWIGART_Flash_Talk.pdf)

@@ -3,7 +3,7 @@ title: "Electron–Ion Equilibration in the Merging Galaxy Cluster A665"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-10-06-Electron-Ion-Equilibration-in-the-Merging-Galaxy-Cluster-A665
-excerpt: 'This paper is about the merging cluster A665.'
+excerpt: 'This paper is about electron-ion equlibration in the merging galaxy cluster Abell 665.'
 date: 2025-10-06
 venue: 'The Astrophysical Journal'
 #slidesurl: 'https://academicpages.github.io/files/slides1.pdf'

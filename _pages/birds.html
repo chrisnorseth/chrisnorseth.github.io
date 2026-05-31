@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+<p>I enjoy wildlife photography! Below is a collection of various birds I have photographed while traveling around.</p>
+
 {% assign bird_sets = site.birds | sort: "order" %}
 {% for post in bird_sets %}
   {% unless post.published == false %}
