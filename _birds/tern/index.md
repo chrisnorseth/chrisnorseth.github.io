@@ -3,7 +3,7 @@ published: True
 title: "Tern"
 description: "Tern by the harbor in Oceanside, CA."
 location: "Oceanside, CA"
-order: 2
+order: 3
 images:
   - file: IMG_3043.JPG
     alt: "Tern flying"
