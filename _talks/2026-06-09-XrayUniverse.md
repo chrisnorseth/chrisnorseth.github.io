@@ -2,7 +2,7 @@
 title: "Galaxy Cluster Thermalization"
 collection: talks
 type: "Talk"
-permalink: /talks/026-06-09-XrayUniverse
+permalink: /talks/2026-06-09-XrayUniverse
 venue: "X-ray Universe 2026"
 date: 2026-06-09
 location: "Elche, Spain"
