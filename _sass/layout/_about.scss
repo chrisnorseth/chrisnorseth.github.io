@@ -1,0 +1,27 @@
+.about-inline-image {
+  float: right;
+  width: min(48%, 360px);
+  margin: 0.25em 0 1em 1.5em;
+
+  img {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.35em;
+    border-radius: $border-radius;
+  }
+
+  figcaption {
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .about-inline-image {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 1em;
+  }
+}

@@ -7,6 +7,11 @@ redirect_from:
   - /about.html
 ---
 
+<figure class="about-inline-image">
+  <img src="/images/talkPhoto.jpg" alt="Christian presenting a talk">
+  <figcaption>Giving my talk at X-ray Universe 2026 in Elche, Spain.</figcaption>
+</figure>
+
 I am a physics PhD candidate at the University of Utah working in X-ray astronomy and galaxy cluster physics, under the advisement of Dr. Daniel Wik. My research focuses on two primary areas: a comprehensive cross-calibration study between NuSTAR and Chandra to better understand the discrepency between cluster temperature measurements, and the investigation of physical processes that occur in merging galaxy clusters. I am particularly interested in the behavior of the intra-cluster medium (ICM) during energetic mergers where the resulting shock fronts accelerate particles and thermalize the ICM.
 
 My current work includes a study of the merging galaxy cluster Abell 754 using X-ray observations from NuSTAR and Chandra, which builds on a similar study I published on Abell 665. This research involves the examination of how electrons and ions are heated across merger driven shock fronts by comparing observational measurements to theoretical models of ICM equilibration. I am also involved in collaborative work investigating radio relic systems and searching for Inverse Compton emission to better constrain magnetic field strengths in galaxy clusters, as well as a comprehensive cross-calibration effort addressing temperature differences in NuSTAR and Chandra, which currently includes **182 observations of 36 galaxy clusters for a grand total of 9.1 Ms of data, each of which is independently processed and spatially characterized in detail.**
