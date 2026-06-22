@@ -9,7 +9,7 @@ redirect_from:
 
 <figure class="about-inline-image">
   <img src="/images/talkPhoto.jpg" alt="Christian presenting a talk">
-  <figcaption>Giving my talk at X-ray Universe 2026 in Elche, Spain.</figcaption>
+  <figcaption>My talk at The X-ray Universe 2026 in Elche, Spain.</figcaption>
 </figure>
 
 I am a physics PhD candidate at the University of Utah working in X-ray astronomy and galaxy cluster physics, under the advisement of Dr. Daniel Wik. My research focuses on two primary areas: a comprehensive cross-calibration study between NuSTAR and Chandra to better understand the discrepency between cluster temperature measurements, and the investigation of physical processes that occur in merging galaxy clusters. I am particularly interested in the behavior of the intra-cluster medium (ICM) during energetic mergers where the resulting shock fronts accelerate particles and thermalize the ICM.
