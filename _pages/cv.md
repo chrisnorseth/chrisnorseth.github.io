@@ -64,7 +64,17 @@ redirect_from:
   .cv-content .cv-research-role {
     font-size: 1.3em;
   }
+
+  .cv-download {
+    margin-bottom: 1.2em;
+  }
 </style>
+
+<p class="cv-download">
+  <a href="{{ base_path }}/files/cv.pdf" class="btn" download>
+    <i class="fa fa-download" aria-hidden="true"></i> Download CV
+  </a>
+</p>
 
 <div class="cv-content" markdown="1">
 
