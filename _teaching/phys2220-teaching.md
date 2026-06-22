@@ -1,7 +1,7 @@
 ---
 title: "Teaching Assistant"
 collection: teaching
-type: "Undergraduate Ctherourse"
+type: "Undergraduate Course"
 permalink: /teaching/phys2220-teaching
 venue: "University of Utah, Physics and Astronomy Department"
 date: 2023-01-01
