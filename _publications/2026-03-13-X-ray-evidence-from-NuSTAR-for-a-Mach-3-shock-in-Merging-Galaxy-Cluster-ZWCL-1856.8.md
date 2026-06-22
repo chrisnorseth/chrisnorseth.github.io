@@ -7,6 +7,7 @@ redirect_from:
   - /publication/2026-03-13-X-ray-evidence-from-NuSTAR-for-a-Mach-3-shock-in-Merging-Galaxy-Cluster-ZWCL-1856-8
 excerpt: 'This paper is about an extremely powerful shock and resulting IC constraints in the merging galaxy cluster ZWCL 1865.8.'
 date: 2026-03-13
+authors: 'Tumer, A., **Norseth, C.**, Wik, D.'
 venue: 'The Astrophysical Journal'
 #slidesurl: 'https://academicpages.github.io/files/slides1.pdf'
 paperurl: '/files/Tumer_2026_ApJ_1003_243.pdf'
