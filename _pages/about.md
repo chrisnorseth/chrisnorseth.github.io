@@ -12,7 +12,7 @@ redirect_from:
   <figcaption>My talk at The X-ray Universe 2026 in Elche, Spain.</figcaption>
 </figure>
 
-(If your name is Joanna and you want to see some neat pictures, you could check out my talk slides and posters, just click on Talks and then click on one of the talks and there's links to things. The Publications tab also has links to my papers. Also, I meant to tell you - you can also google The Bullet Cluster, that's probably the most famous galaxy cluster.)
+(If your name is Joanna and you want to see some neat pictures, you could check out my talk slides and posters, just click on Talks and then click on one of the talks and there's links to things. The Publications tab also has links to my papers. Also, I meant to tell you - you can also google The Bullet Cluster, that's probably the most famous galaxy cluster. ALSO if you like birds I have some pictures of those.)
 
 I am a physics PhD candidate at the University of Utah working in X-ray astronomy and galaxy cluster physics, under the advisement of Dr. Daniel Wik. My research focuses on two primary areas: a comprehensive cross-calibration study between NuSTAR and Chandra to better understand the discrepency between cluster temperature measurements, and the investigation of physical processes that occur in merging galaxy clusters. I am particularly interested in the behavior of the intra-cluster medium (ICM) during energetic mergers where the resulting shock fronts accelerate particles and thermalize the ICM.
 
