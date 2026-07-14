@@ -3,6 +3,7 @@ title: "Galaxy Cluster Thermalization"
 collection: talks
 type: "Talk"
 permalink: /talks/2026-06-09-XrayUniverse
+authors: '**Norseth, C.**, Wik, D., Sarazin, C., Sun, M., Gastaldello, F.'
 venue: "X-ray Universe 2026, Centro de Congresos Ciudad de Elche"
 date: 2026-06-09
 location: "Elche, Spain"

@@ -3,6 +3,7 @@ title: "Electron-Ion Equilibration in the Merging Galaxy Cluster Abell 665"
 collection: talks
 type: "Flash Talk"
 permalink: /talks/2025-09-08-magneticFieldsTalk
+authors: '**Norseth, C.**, Wik, D., Sarazin, C., Sun, M., Gastaldello, F.'
 venue: "Harvard & Smithsonian Center for Astrophysics"
 date: 2025-09-08
 location: "Cambridge, MA, USA"

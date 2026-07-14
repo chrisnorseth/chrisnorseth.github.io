@@ -71,6 +71,16 @@
   font-size: 1.05em;
 }
 
+.talk__item-venue,
+.talk__item-authors {
+  margin-bottom: 0.2em;
+  font-size: 0.85em;
+}
+
+.talk__item-venue {
+  font-weight: bold;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
