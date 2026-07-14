@@ -9,4 +9,6 @@ date: 2021-08-08
 location: "Salt Lake City, UT, USA"
 ---
 
-I presented my progress as an undergraduate of my gas clumping study related to the sensitivity of STAR-X, a proposed NASA MIDEX mission at the time, as a poster at the University of Utah's Undergraduate Research Symposium.
+As an undergraduate, I presented the progress of my simulation pipeline related to a gas clumping study associated with STAR-X, a proposed NASA MIDEX mission at the time, as a poster at the University of Utah's Undergraduate Research Symposium.
+
+[Poster](/files/undergraduatePoster.pdf)
