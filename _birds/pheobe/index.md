@@ -3,7 +3,6 @@ published: True
 title: "Black Pheobe"
 description: "Black Pheobe by the harbor in Oceanside, CA."
 location: "Oceanside, CA"
-order: 4
 images:
   - file: IMG_2870.JPG
     alt: "Black pheobe standing"

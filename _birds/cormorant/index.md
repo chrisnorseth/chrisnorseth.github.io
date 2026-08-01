@@ -3,7 +3,6 @@ published: True
 title: "Cormorant"
 description: "Cormorant by the harbor in Oceanside, CA."
 location: "Oceanside, CA"
-order: 6
 images:
   - file: IMG_3100.JPG
     alt: "Cormorant in tree"

@@ -9,9 +9,10 @@ author_profile: true
 
 <p>I enjoy wildlife photography! Below is a collection of various birds I have photographed while traveling around.</p>
 
-{% assign bird_sets = site.birds | sort: "order" %}
-{% for post in bird_sets %}
-  {% unless post.published == false %}
+{% for bird_slug in site.data.birds %}
+  {% assign bird_path = "_birds/" | append: bird_slug | append: "/index.md" %}
+  {% assign post = site.birds | where: "path", bird_path | first %}
+  {% if post and post.published != false %}
     {% include archive-single-bird.html %}
-  {% endunless %}
+  {% endif %}
 {% endfor %}

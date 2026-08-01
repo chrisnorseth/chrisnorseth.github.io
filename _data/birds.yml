@@ -1,0 +1,8 @@
+# List bird folder names in the order they should appear on /birds/.
+# Each name should match a folder inside _birds/.
+- raven
+- snowy-egret
+- tern
+- pheobe
+- cormorant
+- bushtit
