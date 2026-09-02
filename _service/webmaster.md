@@ -1,5 +1,5 @@
 ---
-title: "Webmaster - Board Member"
+title: "Webmaster / Board Member"
 collection: service
 permalink: /service/webmaster
 company: "Great Salt Lake Audubon"
