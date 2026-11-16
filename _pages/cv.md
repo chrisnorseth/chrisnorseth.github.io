@@ -91,37 +91,62 @@ Research Experience
   PI: Dr. Daniel Wik  
   *University of Utah*
 
-  * **Abell 754** (2026 - Present)
-    * Exploring shock strength and equilibration models in the galaxy cluster merger A754.
-
-  * **PHEMTO Core Member** (2026 - Present)
-    * The Polarimetric High Energy Modular Telescope Observatory - mission concept proposal
-    * Simulated temperature profile across shock front in A665 and impact on equilibration models
-
   * **X-ray Cross-Calibration** (2025 - Present)
+    * ***Thesis project***
+    * **Processed 182 observations of 36 galaxy clusters (9.1 Ms of data)**
+    * Spatially characterized 12 clusters in extreme detail
     * Studying the effect of instrumentation on galaxy cluster temperature measurements
-    * Will study how instrumentation affects cluster mass measurements and resulting cosmological constraints
 
-  * **Double Radio Relic Galaxy Cluster ZWCL+1856** (2024 - 2026)
+  * **RX J1347** (2026 - Present)
+    * ***Project lead***
+    * Full spatial characterization of galaxy cluster emission
+    * Investigating potential IC emission in a cluster merger
+
+  * **Abell 754** (2026 - Present)
+    * ***Drafted first author paper***
+    * Spatially characterized in detail
+    * Exploring shock strength and equilibration models in the cluster merger A754
+
+  * **MACS J1752** (2026 - Present)
+    * ***Project lead***
+    * Will perform full spatial characterization of cluster emission
+    * Investigating potential IC emission in a cluster merger
+    * Followup to ZWCL 1856
+
+
+  * **XRISM Cross Calibration w/ Abell 2029** (2024 - Present)
+    * ***Collaborator***
+    * Understanding cross-calibration between XRISM (XTend and Resolve) and NuSTAR
+    * Processed and analyzed NuSTAR data
+
+
+  * **PHEMTO Core Member** (2026)
+    * ***Mission concept proposal***: The Polarimetric High Energy Modular Telescope Observatory
+    * Simulated temperature profile across shock front in A665 and impact on equilibration models
+    * Contributed to proposal, presented at X-Ray Universe
+
+
+  * **Double Radio Relic Galaxy Cluster ZWCL+1856** (2024 - 2026) 
+    * ***Published second author paper***
     * Remote/Visiting Collaboration with MIT Kavli Institute for Astrophysics and Space Research (PI: Dr. Aysegül Tümer) 
     * Investigated IC and B field strength in galaxy cluster merger
     * Visited MIT May 2024
-    * *Publishing second author paper*
+
 
   * **Equilibration in Galaxy Cluster Merger A665** (2023-2025)
+    * ***Published first author paper***
     * Conducted detailed temperature analysis across shock front
     * Derived shock heating models for electron-ion equilibration
-    * *Published first author paper*
 
 * <strong class="cv-research-role">Post-Bacc/Undergraduate Research Assistant</strong>  
   PI: Dr. Daniel Wik  
   *University of Utah*
 
   * **STAR-X Gas Clumping Simulations** (2021-2023)
+    * ***Published first author paper***
     * Assessed sensitivity of STAR-X, a NASA MIDEX probe in phase A study
-    * Simulated gas clumping in galaxy cluster outskirts
     * Constructed simulations and analysis pipelines
-    * *Published first author paper*
+    * Simulated gas clumping in galaxy cluster outskirts
 
 <div class="cv-section-extra-space"></div>
 
@@ -129,9 +154,10 @@ Successful Observing and Funding Proposals
 ======
 * **PI**, 2026: *Graduate Student Travel Grant*, Department of Physics and Astronomy, University of Utah, $1250
 * **PI**, 2026: *NuSTAR*, “3C 438: Constraining a Shock in one of the Hottest Clusters in the Universe,” 300 ks, C priority
+* **Co-I**, 2026: *XRISM*, “Turbulence and Accurate Temperatures in Abell 2204,” 250 ks (PI: Daniel Wik) - C priority
+* **Co-I**, 2026: *XRISM*, “CL 0217+70: The First XRISM Look at a Galaxy Cluster Merger Shock,” 310 ks (PI: Aysegül Tümer) - C priority
 * **Co-I**, 2026: *NuSTAR*, “Shock Front and Inverse Compton Search Across the Double Radio Relics of MACS J1752.0+4440,” 200 ks (PI: Aysegül Tümer) - B priority
 * **Co-I**, 2026: *NuSTAR*, “Triangulum Australis: Uncovering a Merger in an Obscure(d) Galaxy Cluster,” 125 ks (PI: Daniel Wik) - B priority
-* **Co-I**, 2025: *XRISM*, “Turbulence and Accurate Temperatures in Abell 2204,” 250 ks, C priority (PI: Daniel Wik)
 * **Co-I**, 2025: *NuSTAR*, “Hot Gas, Hydrostatic Mass, and Inverse Compton Constraints in Abell 1914 & Abell 1689,” 220 ks, C priority (PI: Daniel Wik)
 * **Co-I**, 2024: *ADAP*, “X-ray Cross-calibration and the Impact on Cluster Cosmology,” $449,098 (PI: Daniel Wik)
 * **Co-I**, 2024: *XRISM*, “Gas Dynamics in the Line-of-Sight Merger Abell 2163 with XRISM,” 200 ks, $176,173 (PI: Daniel Wik)
