@@ -71,7 +71,7 @@ redirect_from:
 </style>
 
 <p class="cv-download">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn" download>
+  <a href="{{ base_path }}/files/Norseth_CV.pdf" class="btn" download>
     <i class="fa fa-download" aria-hidden="true"></i> Download CV
   </a>
 </p>
@@ -84,6 +84,15 @@ Education
 * M.S. in Physics, University of Utah, 2025
 * B.S. in Physics, University of Utah, 2021
 
+<div class="cv-section-bottom-space"></div>
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+<div class="cv-section-bottom-space"></div>
 
 Research Experience
 ======
@@ -150,6 +159,14 @@ Research Experience
 
 <div class="cv-section-extra-space"></div>
 
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+
+<div class="cv-section-bottom-space"></div>
+
 Successful Observing and Funding Proposals
 ======
 * **PI**, 2026: *Graduate Student Travel Grant*, Department of Physics and Astronomy, University of Utah, $1250
@@ -166,20 +183,8 @@ Successful Observing and Funding Proposals
  NASA NuSTAR GO Grant NNX17AH31G (PI: Daniel Wik),
 NASA NuSTAR GO Grant NNH22ZDA001N (PI: Aysegül Tümer)
 
-<div class="cv-section-bottom-space"></div>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+<div class="cv-section-bottom-space"></div>
   
 
 Service and leadership
